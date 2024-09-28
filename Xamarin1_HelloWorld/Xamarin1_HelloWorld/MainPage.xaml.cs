@@ -18,7 +18,7 @@ namespace Xamarin1_HelloWorld
         private void Button_Clicked(object sender, EventArgs e)
         {
             string username = nameEntry.Text;
-            string greeting = "Hello " + username;
+            string greeting = "Hello, " + username + "!";
             greetingLabel.Text = greeting;
         }
     }
